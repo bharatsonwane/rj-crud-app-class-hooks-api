@@ -1,0 +1,18 @@
+.table_hooks {
+    margin-left: 0%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+
+  }
+
+.buttonStyl {
+    margin-left: 5px;
+  }
+  
+

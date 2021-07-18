@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+    <!-- <meta name="google-signin-client_id" content="161046543811-vchpbkuq32oh2vigslkln3n1271bplov.apps.googleusercontent.com"> -->
+    <h1>aaaqq</h1>
+    <!-- <script  src="./grv.js"></script>; -->
+    <script src="./webcomponent.js"></script>
+    <gravito-fb-button
+     appId='1946801098918823'
+     redirectUrl="localhost"
+     gravitoEndPointUrl="https://dev-api.gravito.net/api/account/sociallogin"
+     buttonText="Login with facebook"
+      ></gravito-fb-button>
+
+      <gravito-google-button
+      appId="471539080874-hm95j6lrj837vlk53915fs0ddijdlifu.apps.googleusercontent.com"
+      redirectUrl="localhost"
+      gravitoEndPointUrl="https://dev-api.gravito.net/api/account/sociallogin"
+      buttonText="Login with google"
+      
+      >
+
+      </gravito-google-button>
+      <gravito-magiclink-button
+      gravitoEndPointUrl="https://dev-api.gravito.net/api/account/magiclink"
+      >
+          
+
+      </gravito-magiclink-button>
+
+</body>
+</html>
