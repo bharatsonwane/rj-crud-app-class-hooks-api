@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import mdl from "./FormTask.module.css"
-import { allClass } from '../../../../constants/customHooks/customModuleClassMethod'
+import { allClass } from '../../../../helper/customHooks/customModuleClassMethod'
 import { Link } from "react-router-dom"
 import LoadingIndicator from '../../../../components/LoadingIndicator/LoadingIndicator'
 import { NotificationManager, NotificationContainer } from 'react-notifications';

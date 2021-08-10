@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import mdl from './taskRetrieve.module.css'
-import { allClass } from '../../../../constants/customHooks/customModuleClassMethod'
-import { usePrevious } from "../../../../constants/customHooks/customHooks"  // custome usePrevious hook
+import { allClass } from '../../../../helper/customHooks/customModuleClassMethod'
+import { usePrevious } from "../../../../helper/customHooks/customHooks"  // custome usePrevious hook
 import { NotificationManager, NotificationContainer } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import LoadingIndicator from '../../../../components/LoadingIndicator/LoadingIndicator';

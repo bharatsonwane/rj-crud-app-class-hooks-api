@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { allClass } from '../../../../constants/customHooks/customModuleClassMethod'
+import { allClass } from '../../../../helper/customHooks/customModuleClassMethod'
 import mdl from "./RetrieveTask.module.css"
 import { Link } from "react-router-dom"
 import LoadingIndicator from '../../../../components/LoadingIndicator/LoadingIndicator'
